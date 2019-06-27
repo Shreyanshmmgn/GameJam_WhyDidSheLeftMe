@@ -15,10 +15,18 @@ public class GameManager : MonoBehaviour
         }
     }
     public void restart(){
-        SceneManager.LoadScene("lvl1");
+        SceneManager.LoadScene("Scene1");
     }
 
     public void winGame(){
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
+    }
+    public void Credits()
+    {
+        SceneManager.LoadScene("Credits");
+    }
+    public void Exit()
+    {
+        Application.Quit();
     }
 }

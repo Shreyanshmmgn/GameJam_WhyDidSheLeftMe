@@ -33,7 +33,7 @@ public class PlayerMovement : MonoBehaviour
 
     }
     public void Jump()
-    {print("Jump");
+    {
         if (Input.GetButtonDown("Jump") && ground == true)
         {
             rb.AddForce(new Vector2(0, jump), ForceMode2D.Impulse);
