@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - Platform
+  - turn
+  - turn1
+  - Enemy
+  - Gun
   layers:
   - Default
   - TransparentFX
